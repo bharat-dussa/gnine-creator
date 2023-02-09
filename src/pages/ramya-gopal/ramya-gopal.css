@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+  font-family: "Pacifico", cursive !important;
+}
+.background-image {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.image-container:hover .image-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.image-color {
+    color: #ffde3a;
+    /* background-color: #000000cc; */
+    padding: 0.3rem
+}
+.text-white{
+    color: #ffffff;
+}
+
+.text-size {
+    font-size: 1rem;
+}
+
+.p-6 {
+    padding: 6rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+@media only screen and (min-width: 600px) {
+    .image-text {
+        transition: visibility 0s, opacity 0.5s linear;
+      }
+
+      .text-size {
+        font-size: 2rem;
+    }
+  }
