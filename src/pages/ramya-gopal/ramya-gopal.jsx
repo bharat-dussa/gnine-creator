@@ -1,7 +1,6 @@
 import React from "react";
 import "rc-banner-anim/assets/index.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
 import RamyaImage from "../../assests/ramya/ramya-gopal-side-view.jpg";
 import RamyaImage2 from "../../assests/ramya/042A7394.jpg";
 import RamyaImage3 from "../../assests/ramya/042A7498.jpg";
@@ -18,73 +17,9 @@ import RamyaImage12 from "../../assests/ramya/5.jpg";
 import { MDBCol, MDBRow } from "mdb-react-ui-kit";
 
 import "./ramya-gopal.css";
-import Gallery from "react-photo-gallery";
 
 export const RamyaGopal = () => {
-  const photos = [
-    {
-      src: RamyaImage,
-      width: 4,
-      height: 3,
-    },
-    {
-      src: RamyaImage2,
-      width: 1,
-      height: 1,
-    },
-    {
-      src: RamyaImage3,
-      width: 4,
-      height: 3,
-    },
-    {
-      src: RamyaImage4,
-      width: 4,
-      height: 3,
-    },
-    {
-      src: RamyaImage5,
-      width: 1,
-      height: 1,
-    },
-    {
-      src: RamyaImage6,
-      width: 4,
-      height: 3,
-    },
-    {
-      src: RamyaImage7,
-      width: 4,
-      height: 3,
-    },
-    {
-      src: RamyaImage8,
-      width: 4,
-      height: 3,
-    },
-    {
-      src: RamyaImage9,
-      width: 4,
-      height: 3,
-    },
 
-    {
-      src: RamyaImage10,
-      width: 4,
-      height: 3,
-    },
-    {
-      src: RamyaImage11,
-      width: 4,
-      height: 3,
-    },
-
-    {
-      src: RamyaImage12,
-      width: 4,
-      height: 3,
-    },
-  ];
 
   return (
     <div>
@@ -160,6 +95,33 @@ export const RamyaGopal = () => {
 
             <img
               src={RamyaImage4}
+              className="w-100 shadow-1-strong rounded mb-4"
+              alt="Yosemite National Park"
+            />
+          </MDBCol>
+          <MDBCol lg={4} className="mb-4 mb-lg-0">
+            <img
+              src={RamyaImage11}
+              className="w-100 shadow-1-strong rounded mb-4"
+              alt="Waves at Sea"
+            />
+
+            <img
+              src={RamyaImage12}
+              className="w-100 shadow-1-strong rounded mb-4"
+              alt="Yosemite National Park"
+            />
+          </MDBCol>
+
+          <MDBCol lg={4} className="mb-4 mb-lg-0">
+            <img
+              src={RamyaImage2}
+              className="w-100 shadow-1-strong rounded mb-4"
+              alt="Waves at Sea"
+            />
+
+            <img
+              src={RamyaImage3}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Yosemite National Park"
             />
