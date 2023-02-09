@@ -1,7 +1,4 @@
 import React from "react";
-import "mind-ar/dist/mindar-image.prod.js";
-import "aframe";
-import "mind-ar/dist/mindar-image-aframe.prod.js";
 import "./App.css";
 import { RamyaGopal } from "./pages/ramya-gopal/ramya-gopal";
 import { Routes, Route } from "react-router-dom";
