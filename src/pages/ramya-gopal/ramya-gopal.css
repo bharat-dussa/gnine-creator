@@ -44,6 +44,9 @@ body {
 .p-2 {
     padding: 2rem;
 }
+.background-color-image{
+  background: #ffde3a;
+}
 @media only screen and (min-width: 600px) {
     .image-text {
         transition: visibility 0s, opacity 0.5s linear;

@@ -19,8 +19,6 @@ import { MDBCol, MDBRow } from "mdb-react-ui-kit";
 import "./ramya-gopal.css";
 
 export const RamyaGopal = () => {
-
-
   return (
     <div>
       <h2 className="text-size p-2">Have a happy married life</h2>
@@ -43,6 +41,14 @@ export const RamyaGopal = () => {
         </div>
       </div>
 
+      <div className="text-size p-6">
+        <q>
+          A successful marriage requires falling in{" "}
+          <span className="background-color-image">love many times</span>,
+          always with the{" "}
+          <span className="background-color-image">same person</span>
+        </q>
+      </div>
       <div className="p-2">
         <MDBRow>
           <MDBCol lg={4} md={12} className="mb-4 mb-lg-0">
@@ -133,6 +139,12 @@ export const RamyaGopal = () => {
         Akka and Bava, Congratulations on your marriage, and may your life
         together be filled with adventure, companionship, and everlasting joy.
       </div>
+
+
+      <div className="text-size p-6">
+        Crafted with ❤️ by <span className="background-color-image">gnine creators</span>
+      </div>
+
     </div>
   );
 };
